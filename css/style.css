@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-menu{
+    background: #1A187A;
+}
+.nav-item:hover .nav-link{
+    color: #6c757d!important;
+    transition: .3s;
+}
+.top-banner{
+    background: url('../images/bannar-bg.png'),#E7EEF4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.banner-image{
+    background: url('../images/Iphone\ Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-image1{
+    background: url('../images/Iphone\ 14\ pro\ 1-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-title{
+   color:#1E046A;
+   font-size: 25px;
+   margin-top: 165px;
+}
+.banner-header{
+    color: #000000;
+    font-size: 90px;
+    margin-top: 24px;
+}
+.banner-dsc{
+    color: #000;
+    font-size: 18px;
+    margin-top: 24px;
+}
+.banner-btn{
+    color:#fff !important;
+    background: #171495 !important;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-bottom: 120px;
+}
+.banner-btn:hover{
+    background: #0707ee !important;
+    transition: .3s !important;
+}
+
+.appel-airpot-image{
+    background:#ADC2D7;
+}
+.mac-book-col{
+    background: #EDEDED;
+}
+
+.mac-book-img{
+    overflow: hidden;
+ }
+.bg-category{
+    background: #EDEDED;
+}
+.bg-card{
+    background: #F6F6F6;
+}
+.buynow-btn{
+    color:#fff !important;
+    background: #000000 !important;
+    font-size: 16px;
+    padding: 8px 20px;
+}
+.buynow-btn:hover{
+    background: #161616 !important;
+    transition: .3s;
+}
+.heart-btn{
+    top:11px;
+    right:24px;
+}
+.new-arrival-menu li{
+   list-style: none;
+   padding-left: 25px;
+   transition: .3s;
+   cursor: pointer;
+}
+.actives{
+    text-decoration-line: underline;
+}
+.new-arrival-menu li:hover{
+    text-decoration-line: underline;
+    color: #171495;
+}
+.bg-add{
+    background: #958AD4;
+}
+.bg-footer{
+    background: #0E071B;
+}
+.social-icons span{
+    cursor: pointer;
+}
+.social-icons span:hover{
+    color: #171495;
+    transition: .3s;
+}
+.footer-links li{
+   list-style: none;
+   color: #fff;
+   cursor: pointer;
+}
+.footer-links li:hover{
+    color: #171495;
+    transition: .3s;
+}
+@media only screen and (max-width: 767px) {
+    body {
+        .banner-title{
+            font-size: 18px;
+            margin-top: 30px;
+         }
+         .banner-header{
+             font-size: 36px;
+             margin-top: 14px;
+         }
+         .banner-dsc{
+             font-size: 14px;
+             margin-top: 14px;
+         }
+         .banner-btn{
+             margin-bottom: 30px;
+         }
+         .banner-image,.banner-image1{
+            padding-top: 37px;
+            padding-bottom: 456px;
+            width: 80%;
+            margin: auto;
+        }
+        .airpod-img{
+            width: 50% !important;
+        }
+        .mac-book-img img{
+           width: 100% !important;
+        }
+        .small-device-img-1{
+            top: 50px!important;
+            left: 180px !important;
+            width: 235px !important;
+        }
+        .small-device-img-2{
+            width: 230px !important;
+            left: 221px !important;
+        }
+        .social-icons{
+            display: block !important;
+            text-align: center;
+        }
+        .footer-links{
+            margin: 0 20px I !important;
+            text-align: center;
+        }
+    }
+  }
